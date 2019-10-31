@@ -62,5 +62,5 @@
     （2）浮动布局中 left mid right都设置浮动，且设置定长  触发BFC，不会撑开宽度，但是这种写法似乎很多人都不提倡，可用性太低。  
     （3）树形展开，还需学习。  
     （4）持续学习ant design和ts中，并继续了解react  
-
+    1
   [详细参考手册]：(https://typescript.bootcss.com/basic-types.html "ts中文文档")  
