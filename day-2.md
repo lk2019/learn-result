@@ -30,5 +30,21 @@
            
            let mystr:string = myArray[0];  
            ts同时支持字符串和数字索引  类似obj[]=target  
+         （5）类类型  
+         interface ClockInterface {  
+             currentTime: Date;  
+         }  
+         
+         class Clock implements ClockInterface {  
+             currentTime: Date;  
+             constructor(h : number, m: number) { }  
+         }  
+         也可以在接口中声明一个方法，在类中完成实现。  
+         继承接口  
+         extends 
+         一个接口可以继承多个接口，创建出多个接口的合成接口。  
+         
+         
+         参考文档：https://typescript.bootcss.com/interfaces.html（typescript中文手册）  
            
           
