@@ -1,5 +1,5 @@
 ## 第四天学习
-     ### 函数
+   ### 函数
      (1)有名函数和匿名函数：
      与js所拥有的函数类型相同：
      function add(x, y) {
@@ -61,6 +61,6 @@
 
          let pickedCard2 = pickCard(15);
          alert("card: " + pickedCard2.card + " of " + pickedCard2.suit);
-    ### 今日实习总结：实习任务未完成  在下一次一起总结
+   ### 今日实习总结：实习任务未完成  在下一次一起总结
 
 
