@@ -17,5 +17,11 @@
   所以体验的HTML表单控制，例如<input>和<textarea>，都需要被标注来实现无障碍辅助功能。
 ## 代码分割
 ### 打包
-大多数React应用都会使用webpack这类的构件工具来打包文件。打包是将文件引入并合并到一个单独文件的过程，最终形成一个bundle。
+  大多数React应用都会使用webpack这类的构件工具来打包文件。  
+  打包是将文件引入并合并到一个单独文件的过程，最终形成一个bundle。  
 
+### react.lazy
+react.lazy和Suspense不支持服务器渲染，react.lazy函数能让你像渲染常规组件一样处理动态引入。例如：
+    const OtherComponent = React.lazy(() => import("./otherComponent.))
+## Context
+在一个典型的 React 应用中，数据是通过 props 属性自上而下（由父及子）进行传递的，但这种做法对于某些类型的属性而言是极其繁琐的（例如：地区偏好，UI 主题），这些属性是应用程序中许多组件都需要的。Context 提供了一种在组件之间共享此类值的方式，而不必显式地通过组件树的逐层传递 props。
