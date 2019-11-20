@@ -55,5 +55,5 @@ Flow 是一个针对 JavaScript 代码的静态类型检测器。Flow 由 Facebo
 5.componentDidUpdate()  
         当组件更新后，可以在此处对 DOM 进行操作。如果你对更新前后的 props 进行了比较，也可以选择在此处进行网络请求。
 ### 卸载过程
-1.componentWillUnmount()
+1.componentWillUnmount()  
         componentWillUnmount() 会在组件卸载及销毁之前直接调用。在此方法中执行必要的清理操作，例如，清除 timer，取消网络请求或清除在 componentDidMount() 中创建的订阅等。
