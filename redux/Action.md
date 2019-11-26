@@ -9,6 +9,6 @@
     }
     派发action:dispatch(addTODO(text))  
     或:const boundAddtodo = text => dispatch(addTodo(text))
-        boundAddtodo(text);
+    boundAddtodo(text);
         
     
